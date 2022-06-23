@@ -1,0 +1,47 @@
+body {
+  background-color: #dceaf0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#sign-in {
+  padding: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 8px gray;
+  background-color: whitesmoke;
+  border-radius: 2px;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in-form > input {
+  margin: 8px;
+}
+
+#email,
+#password {
+  background-color: whitesmoke;
+  border: none;
+  border-bottom: 1px gray solid;
+}
+
+#email:focus,
+#password:focus {
+  outline: none;
+}
+
+#submit-btn {
+  padding: 8px;
+  background-color: #3598db;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
